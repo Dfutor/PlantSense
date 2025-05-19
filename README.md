@@ -98,3 +98,15 @@ https://www.python.org/ftp/python/3.12.0/python-3.12.0 amd64.exe
 //PowerSell  Abre firewall
 1. New-NetFirewallRule -DisplayName "FastAPI 3000" -Direction Inbound -Protocol TCP -LocalPort 3000 -Action Allow
 2. http://192.168.80.15:3000/docs#/
+
+npm create vite@latest frontend -- --template vue
+cd frontend
+npm install
+npm install axios chart.js
+
+Para correr el proyecto:
+docker-compose up -d  // Tenga presente que debe tener docker abierto
+
+
+uvicorn main:app --host 0.0.0.0 --port 3000 --reload
+npm run dev
