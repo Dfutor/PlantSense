@@ -1,0 +1,14 @@
+# Node (Vite)
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+
+
+# VSCode
+.vscode/
+
+# Otros
+.DS_Store
