@@ -4,17 +4,16 @@ Este proyecto integra hardware (ESP8266 + sensor YL-69), backend (FastAPI + Post
 📦 Estructura del Proyecto
 /PlantSense
 -  esp8266/              → Código para la placa ESP8266
-   └── yl-69-.ino
+   -   yl-69-.ino
 
 - init-db/              → Script SQL para crear base de datos y tablas
-  └── init.sql
+   -  init.sql
 
 -  main.py               → Backend FastAPI
-- ocker-compose.yml    → Infraestructura completa con Docker (opcional)
+- docker-compose.yml    → Infraestructura completa con Docker (opcional)
 - frontend/             → Frontend Vue + Chart.js
-  ├── src/
-  ├── App.vue           → Dashboard con gráfica y tabla
-  └── ...
+   -   src/
+   -  App.vue           → Dashboard con gráfica y tabla
 
 
 🔌 Hardware Utilizado
