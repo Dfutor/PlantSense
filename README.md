@@ -1,4 +1,5 @@
 🌱 PlantSense - Sistema IoT de Monitoreo de Humedad de Tierra
+
 Este proyecto integra hardware (ESP8266 + sensor YL-69), backend (FastAPI + PostgreSQL) y frontend (Vue.js + Chart.js) para monitorear en tiempo real la humedad del suelo de una planta.
 
 📦 Estructura del Proyecto
